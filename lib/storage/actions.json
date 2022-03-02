@@ -1,0 +1,204 @@
+{
+  "actions": [
+    {
+      "name": "Go to work",
+      "conditions": [
+        {
+          "name": "alcohol",
+          "min": 0,
+          "max": 70
+        },
+        {
+          "name": "tired",
+          "min": 0,
+          "max": 10
+        }
+      ],
+      "result": [
+        {
+          "name": "alcohol",
+          "value": -30
+        },
+        {
+          "name": "happy",
+          "value": -5
+        },
+        {
+          "name": "tired",
+          "value": 70
+        },
+        {
+          "name": "money",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "name": "Relax in nature",
+      "conditions": [
+      ],
+      "result": [
+        {
+          "name": "alcohol",
+          "value": -10
+        },
+        {
+          "name": "happy",
+          "value": 1
+        },
+        {
+          "name": "tired",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "name": "Drink wine and watch TV series",
+      "conditions": [
+      ],
+      "result": [
+        {
+          "name": "alcohol",
+          "value": 30
+        },
+        {
+          "name": "happy",
+          "value": -1
+        },
+        {
+          "name": "tired",
+          "value": 10
+        },
+        {
+          "name": "money",
+          "value": -20
+        },
+        {
+          "name": "health",
+          "value": -5
+        }
+      ]
+    },
+    {
+      "name": "Go to a bar",
+      "conditions": [
+      ],
+      "result": [
+        {
+          "name": "alcohol",
+          "value": 60
+        },
+        {
+          "name": "happy",
+          "value": 1
+        },
+        {
+          "name": "tired",
+          "value": 40
+        },
+        {
+          "name": "money",
+          "value": -100
+        },
+        {
+          "name": "health",
+          "value": -10
+        }
+      ]
+    },
+    {
+      "name": "Drink with marginal people",
+      "conditions": [
+      ],
+      "result": [
+        {
+          "name": "alcohol",
+          "value": 90
+        },
+        {
+          "name": "happy",
+          "value": 5
+        },
+        {
+          "name": "tired",
+          "value": 80
+        },
+        {
+          "name": "money",
+          "value": -150
+        },
+        {
+          "name": "health",
+          "value": -80
+        }
+      ]
+    },
+    {
+      "name": "Sing in the subway",
+      "conditions": [
+      ],
+      "result": [
+        {
+          "name": "alcohol",
+          "value": 10
+        },
+        {
+          "name": "happy",
+          "value": 1
+        },
+        {
+          "name": "tired",
+          "value": 20
+        },
+        {
+          "name": "money",
+          "value": 10,
+          "condition":
+          {
+            "name": "alcohol",
+            "value": 50,
+            "min": 40,
+            "max": 70
+          }
+        }
+      ]
+    },
+    {
+      "name": "Sleep",
+      "conditions": [
+      ],
+      "result": [
+        {
+          "name": "happy",
+          "value": 0,
+          "condition":
+          {
+            "name": "alcohol",
+            "value": -3,
+            "min": 70,
+            "max": 100
+          }
+        },
+        {
+          "name": "tired",
+          "value": -70
+        },
+        {
+          "name": "alcohol",
+          "value": -50
+        },
+        {
+          "name": "health",
+          "value": 0,
+          "condition":
+          {
+            "name": "alcohol",
+            "value": 90,
+            "min": 0,
+            "max": 30
+          }
+        }
+      ]
+    }
+  ]
+}
