@@ -1,1 +1,1 @@
-[![Unit Tests & Lint](https://github.com/devyatiyarov/ruby_valera/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/devyatiyarov/ruby_valera/actions/workflows/main.yml)
+[![Unit Tests & Lint](https://github.com/devyatiyarov/ruby_valera/workflows/Unit%20Tests%20&%20Lint/badge.svg)]
